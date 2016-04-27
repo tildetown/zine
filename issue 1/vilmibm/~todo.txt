@@ -43,7 +43,7 @@ report card on the goals of the town and discussion on future changes.
 +^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-+
 ( The following scores are purely subjective and in completely good spirit and )
 ( are no way a passing of judgement on tilde.town's users. However, I freely   )
-( admit to judging myself.                                                  )
+( admit to judging myself.                                                     )
 +v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-+
 
 === F- === The Tilde Constellation
