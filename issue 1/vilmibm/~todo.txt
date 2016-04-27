@@ -153,7 +153,7 @@ Here's to the next 17 months~
 (1) This "report card" style of writing about technology was inspired by a talk
     given at Clojure/west 2016 by Claire Alvis: https://youtu.be/cO67QNn9hPY
 (2) There are examples all over the town, but I most recently was delighted by
-    ~insom's "Puking I have Known #1" (3) link to joe's page
+    ~insom's "Puking I have Known #1"
 (3) ~joe's page continues to inspire and astonish viewers.
 (4) absolutely soul crushingly beautiful http://tilde.town/~karlen/
 (5) see http://tilde.town/~wiki
