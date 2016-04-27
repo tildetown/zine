@@ -9,31 +9,30 @@
                         +~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~+
                                         *
 
-The dream of the 1980s proto-cybernaut was to take on whatever shape suited
+The dream of the 1980s proto-cybernaut was to assume  whatever shape suited
 them and soar through neon clouds stretched infintely over the matte black of
-pure thought and the faint grids of inter-server connections. As computers
+pure thought and the faint grids of server connections. As computers
 became more powerful and displays more capable, this dream became inverted: we
-did not visualize infinite neon fields, but instead have found ourselves
-interfacing with cyberspace on a series of bureaucratic web forms designed and
-provided by massive corporations. Though very different in aesthetic and
-interface, we have realized the foundations of the libertarian dystopias
-manifested in the cyberpunk literature of the last few decades.
+did not visualize neon fields, but instead have found ourselves interfacing
+with cyberspace on a series of bureaucratic web forms designed and provided by
+massive corporations. Though very different in aesthetic and interface, we have
+realized the libertarian dystopias envisioned in the cyberpunk literature of
+the late 20th century.
 
 Despite this, cyberspace remains an intoxicating place. Humans have a hard time
 resisting perpetual connectivity to a world that, at times, feels even more real
 than the air and meat surrounding us offline. Regardless of who you are,
-cyberspace promises something--or, at least, the hope of something--for you. We
-are all seekers, hunting online for that which fulfills us and which all too
-often is lacking in the world of the flesh.
+cyberspace promises something for you. We are all seekers, hunting online for
+that which fulfills us and which all too often is lacking in the world of the
+flesh.
 
 tilde.town, at first glance, may seem like an exercise in pure cybernostalgia
-(at best) or a perverted sort of reactionary luddism (at worst). Neither of
-these extremes are accurate, though. The town's mission is to look backwards at
-a period of time where the promise of cyberspace was still fluid and
-user-empowering while, at the same time, looking forward at technologies that
-help us adminster shared systems more cheaply and easily. Through this duality,
-tilde.town aims to be a community focused on the safe expression of identity,
-the creation of digital art, and peer education.
+or a sort of reactionary luddism. Neither extreme is accurate. The town's
+mission is to look backwards at a period of time when the promise of cyberspace
+was fluidity and user-empowerment while, at the same time, looking forward at
+technologies that help us adminster shared systems cheaply and easily. Through
+this duality, tilde.town aims to be a community focused on the safe expression
+of identity, the creation of digital art, and peer education.
 
 So, how is tilde.town doing?(1) The town has existed for 17 months. There have
 been nearly 600 signups, of which 353 led to updated homepages. Anecdotally,
@@ -43,30 +42,30 @@ report card on the goals of the town and discussion on future changes.
 
 +^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-+
 ( The following scores are purely subjective and in completely good spirit and )
-( are no way a passing of judgement on tilde.town's users. However, the author )
-( admits to judging themself.                                                  )
+( are no way a passing of judgement on tilde.town's users. However, I freely   )
+( admit to judging myself.                                                  )
 +v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-+
 
 === F- === The Tilde Constellation
 
-A huge part of the original tilde dream was an interconnected series of
+A part of the original tilde dream was an interconnected series of
 servers, all with micro-communities, that could communicate over media like IRC
-and Usenet. In the beginning, a usenet connection was working between
+and Usenet. In the beginning, a Usenet connection was established between
 tilde.club and tilde.town. No other tildes were ever added and after the first
 many months of the tildes' existence, usenet had gone dark. Work was done
 towards briding the IRC gaps between club and town, but that work went
 unfinished.
 
-Many tilde servers have become inactive. Town is (as far as the author knows)
-the most active tilde server around. However, there are definitely other
+Many tilde servers have become inactive. tilde.town is (as far as I know) the
+most active tilde server around. However, there are definitely other
 communities humming along. We should reach out to them and establish whatever
 links we're comfortable establishing.
 
 === A === Artistic Projects
 
-We've seen some incredible writing(2), HTML art(3), sound art(4) and all around
-lovely creativity from so many members of the town. We even have a MUD. In general,
-tilde.town has been an incredibly creative place.
+We've seen incredible writing(2), HTML art(3), sound art(4) and all around
+lovely creativity from so many members of the town. We even have a MUD.
+tilde.town is an incredibly creative place.
 
 The only thing between the A and the A+ is more curation and promotion of the
 works we produce as a community. We're making lovely things and the world
@@ -74,34 +73,33 @@ should know! This zine is a wonderful step in that direction.
 
 === A+ === The Feels
 
-The defining characteristic of tilde.town (at least, in the author's mind) is
+The defining characteristic of tilde.town (at least, in my mind) is
 its concern with maintaining a safe space where people are comfortable being
-vulnerable with each other. Our IRC has been graced with countless open and
-meaningful conversations between members. Friendships are being made across
-huge temporal and physical distances and it's extremely heart warming.
+vulnerable. Our IRC has been graced with countless open and meaningful
+conversations between members. Friendships are being made across huge temporal
+and physical distances and it's extremely heart warming.
 
 Keep up the good feels.
 
 === C === Peer Education
 
-The author claims responsibility for this poor mark. It's been 17 months and
-they've hardly spent time documenting tilde.town. We have a strange wiki(5)
-but, after several awesome bursts of activity, it's stayed mostly untouched.
+It's been 17 months and I've hardly spent time documenting tilde.town. We have
+a strange wiki(5) but, after several awesome bursts of activity, it's stayed
+mostly untouched.
 
 As a community, though, we're always willing and happy to help new people and
 answer questions. Moving forward, establishing a better framework for learning
-materials (like, say, a proper media wiki) will let us channel that new user
-friendliness into more usable documentation.
+materials will let us channel that new user friendliness into more usable
+documentation. I'm open to something like a proper mediawiki(6).
 
-Tilde.town should be a place where people can come learn useful and broadly
+tilde.town should be a place where people can come learn useful and broadly
 applicable terminal, coding, and systems administration skills.
 
 === D === Accessibility
 
-Another low mark for ~vilmibm. The barrier to entry for tilde.town is too high:
-even with great documentation, SSH is an incredibly new and strange concept for
-most people. If we really want to open up the town to everyone, we need to make
-a few things easier:
+The barrier to entry for tilde.town is too high: even with great documentation,
+SSH is an incredibly new and strange concept for most people. If we really want
+to open up the town to everyone, we need to make a few things easier:
 
     1) signing up
     2) logging in
@@ -123,7 +121,7 @@ For 4, it's become apparent that, when IRC is quiet, the town seems abandoned.
 It's hard to tell when people are around making stuff or looking to communicate
 but just not on IRC (real time chat isn't for everyone). To this end, we should
 create a custom bash prompt for users that has information about unread local
-mail messages(6) and online users as well as better integration with presence
+mail messages(7) and online users as well as better integration with presence
 tools like "who".
 
              *  *  *                          *      *     * *         **       
@@ -140,14 +138,15 @@ tools like "who".
 tilde.town is something special. We're taking back technology that was
 originally intended to connect humans but was subverted for commercial and
 surveillance ends. We're learning from each other and helping to show the world
-that computers aren't just for profit and making each other feel bad. Here's to
-the next 17 months~
+that computers aren't just for profit and making each other feel bad. 
+
+Here's to the next 17 months~
 
 
   *     * * **  **         **   **  **** *  ****  *   **  **      * *  *** *   *
 *   * ** **     *  ** *  * * *  ** **** **   *     *  *    *   * * *** * *     *
   *  * *      *    *  * * *      *  ** *   *    * ******    *  **   **** *   ** 
-*  * **   **        *    **   *   *** *   * *** **  *  *  **********  * *    (7)
+*  * **   **        *    **   *   *** *   * *** **  *  *  **********  * *    (8)
 
 
 ---------------------------------n-o-t-e-s--------------------------------------
@@ -158,6 +157,7 @@ the next 17 months~
 (3) ~joe's page continues to inspire and astonish viewers.
 (4) absolutely soul crushingly beautiful http://tilde.town/~karlen/
 (5) see http://tilde.town/~wiki
-(6) Thanks to ~xkeeper for this idea!
-(7) The lil ascii starfields in this piece were generated by a short C program
+(6) I'm inspired by http://ctrl-c.club/wiki
+(7) Thanks to ~xkeeper for this idea!
+(8) The lil ascii starfields in this piece were generated by a short C program
     I also submitted to this zine. Try typing it in and using it youself <3
