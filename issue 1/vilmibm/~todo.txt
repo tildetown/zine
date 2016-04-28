@@ -53,7 +53,7 @@ servers, all with micro-communities, that could communicate over media like IRC
 and Usenet. In the beginning, a Usenet connection was established between
 tilde.club and tilde.town. No other tildes were ever added and after the first
 many months of the tildes' existence, usenet had gone dark. Work was done
-towards briding the IRC gaps between club and town, but that work went
+towards bridging the IRC gaps between club and town, but that work went
 unfinished.
 
 Many tilde servers have become inactive. tilde.town is (as far as I know) the
