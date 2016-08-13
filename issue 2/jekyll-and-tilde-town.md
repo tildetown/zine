@@ -163,7 +163,7 @@ Aside from all the stuff mentioned here, Jekyll has many other features, includi
 
 ---
 
-I hope this guide has been helpful! Feel free to mail me through alpine if you need any help.
+I hope this guide has been helpful! Feel free to mail me through alpine if you need any help, or you can view the source code of my Jekyll site [here][resi-jekyll].
 
 *~resir014*
 
@@ -171,3 +171,4 @@ I hope this guide has been helpful! Feel free to mail me through alpine if you n
 [poole]: http://getpoole.com/
 [jekyll-baseurl]: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 [jekyll-docs]: https://jekyllrb.com/docs/home/
+[resi-jekyll]: https://github.com/resir014/resir014-tilde
