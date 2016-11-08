@@ -1,0 +1,163 @@
+*  * * *    * *  *    *       *   *___________   *   *    * *  *    *       *
+ *    *  * *   *     *  *  *   *   |*-------*| * *     * *   *     *    * *  *
+  *  *  * *  * *   *  *           *|* ~todo *|  *  *  *    * *   *  *      *  *
+ *   *    * *    * * * *   * *   * |*-------*|*   *    * *    * * * *   * *   *
+===============================================================================
+~      being a 17 month retrospective on tilde.town's past and future         ~
+===============================================================================
+                       \     by its founder, ~vilmibm    /
+                        +~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~+
+                                        *
+
+The 80s cybernaut dreamed of assuming whatever shape suited them while soaring
+through neon clouds stretched infinitely over the matte black of pure thought
+and the faint grids of inter-connected servers.  As computers became more
+powerful and displays more capable, this dream became inverted: we did not
+visualize neon fields, but instead have found ourselves interfacing with
+cyberspace on a series of bureaucratic web forms designed and provided by
+massive corporations. Though very different in aesthetic and interface, we have
+realized the libertarian dystopias envisioned in the cyberpunk literature of
+the late 20th century.
+
+Despite this, cyberspace remains an intoxicating place. Humans have a hard time
+resisting perpetual connectivity to a world that, at times, feels even more real
+than the air and meat surrounding us offline. Regardless of who you are,
+cyberspace promises something for you. We are all seekers, hunting online for
+that which fulfills us and which all too often is lacking in the world of the
+flesh.
+
+tilde.town, at first glance, may seem like an exercise in pure cybernostalgia
+or a sort of reactionary luddism. Neither extreme is accurate. The town's
+mission is to look backwards at a period of time when the promise of cyberspace
+was fluidity and user-empowerment while, at the same time, looking forward at
+technologies that help us adminster shared systems cheaply and easily. Through
+this duality, tilde.town aims to be a community focused on the safe expression
+of identity, the creation of digital art, and peer education.
+
+So, how is tilde.town doing?(1) The town has existed for 17 months. There have
+been nearly 600 signups, of which 353 led to updated homepages. Anecdotally,
+there is an average 12-20 active connections to the serve each day and most of
+those users engage in daily IRC chat. The following is a sort of informal
+report card on the goals of the town and discussion on future changes.
+
++^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-+
+( The following scores are purely subjective and in completely good spirit and )
+( are no way a passing of judgement on tilde.town's users. However, I freely   )
+( admit to judging myself.                                                     )
++v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-+
+
+=== F- === The Tilde Constellation
+
+A part of the original tilde dream was an interconnected series of
+servers, all with micro-communities, that could communicate over media like IRC
+and Usenet. In the beginning, a Usenet connection was established between
+tilde.club and tilde.town. No other tildes were ever added and after the first
+many months of the tildes' existence, usenet had gone dark. Work was done
+towards bridging the IRC gaps between club and town, but that work went
+unfinished.
+
+Many tilde servers have become inactive. tilde.town is (as far as I know) the
+most active tilde server around. However, there are definitely other
+communities humming along. We should reach out to them and establish whatever
+links we're comfortable establishing.
+
+=== A === Artistic Projects
+
+We've seen incredible writing(2), HTML art(3), sound art(4) and all around
+lovely creativity from so many members of the town. We even have a MUD.
+tilde.town is an incredibly creative place.
+
+The only thing between the A and the A+ is more curation and promotion of the
+works we produce as a community. We're making lovely things and the world
+should know! This zine is a wonderful step in that direction.
+
+=== A+ === The Feels
+
+The defining characteristic of tilde.town (at least, in my mind) is
+its concern with maintaining a safe space where people are comfortable being
+vulnerable. Our IRC has been graced with countless open and meaningful
+conversations between members. Friendships are being made across huge temporal
+and physical distances and it's extremely heart warming.
+
+Keep up the good feels.
+
+=== C === Peer Education
+
+It's been 17 months and I've hardly spent time documenting tilde.town. We have
+a strange wiki(5) but, after several awesome bursts of activity, it's stayed
+mostly untouched.
+
+As a community, though, we're always willing and happy to help new people and
+answer questions. Moving forward, establishing a better framework for learning
+materials will let us channel that new user friendliness into more usable
+documentation. I'm open to something like a proper mediawiki(6).
+
+tilde.town should be a place where people can come learn useful and broadly
+applicable terminal, coding, and systems administration skills.
+
+=== D === Accessibility
+
+The barrier to entry for tilde.town is too high: even with great documentation,
+SSH is an incredibly new and strange concept for most people. If we really want
+to open up the town to everyone, we need to make a few things easier:
+
+    1) signing up
+    2) logging in
+    3) editing html
+    4) activity awareness
+
+For 1, the plan is to create a web page that can generate RSA keys in browser
+(keeping the private key only on the client). This means we can control the
+most confusingand platform dependent part of signing up, making it easier for
+new people.
+
+For 2, given that users use our signup tool, we can provide a little script
+(per platform) that starts up putty/ssh appropriately and uses the right key.
+
+For 3, we should develop a baseline config for either nano or emacs and then
+thoroughly document how to use them.
+
+For 4, it's become apparent that, when IRC is quiet, the town seems abandoned.
+It's hard to tell when people are around making stuff or looking to communicate
+but just not on IRC (real time chat isn't for everyone). To this end, we should
+create a custom bash prompt for users that has information about unread local
+mail messages(7) and online users as well as better integration with presence
+tools like "who".
+
+             *  *  *                          *      *     * *         **       
+ *   *              *    *                 *     *                  *           
+ *         *  *   *      *   *  * *            *        *    *       *    *   * 
+   *                    *    *            **              *                    *
+*           *    *            C O N C L U S I O N      *  *      *     * **     
+ *         *    *                   *   *       *     *                *   *   *
+                    *  *  *      *    *                      *  * **     *     *
+                                  *                               *          *  
+        *                *           *                 *                      * 
+    *         *           *  *    *                     *                       
+
+tilde.town is something special. We're taking back technology that was
+originally intended to connect humans but was subverted for commercial and
+surveillance ends. We're learning from each other and helping to show the world
+that computers aren't just for profit and making each other feel bad. 
+
+Here's to the next 17 months~
+
+
+  *     * * **  **         **   **  **** *  ****  *   **  **      * *  *** *   *
+*   * ** **     *  ** *  * * *  ** **** **   *     *  *    *   * * *** * *     *
+  *  * *      *    *  * * *      *  ** *   *    * ******    *  **   **** *   ** 
+*  * **   **        *    **   *   *** *   * *** **  *  *  **********  * *    (8)
+
+
+---------------------------------n-o-t-e-s--------------------------------------
+(1) This "report card" style of writing about technology was inspired by a talk
+    given at Clojure/west 2016 by Claire Alvis: https://youtu.be/cO67QNn9hPY
+(2) There are examples all over the town, but I most recently was delighted by
+    ~insom's "Puking I have Known #1"
+(3) ~joe's page continues to inspire and astonish viewers.
+(4) absolutely soul crushingly beautiful http://tilde.town/~karlen/
+(5) see http://tilde.town/~wiki
+(6) I'm inspired by http://ctrl-c.club/wiki
+(7) Thanks to ~xkeeper for this idea!
+(8) The lil ascii starfields in this piece were generated by a short C program
+    I also submitted to this zine. Try typing it in and using it youself <3
