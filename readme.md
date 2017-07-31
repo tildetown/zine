@@ -8,7 +8,7 @@ to sign up please visit [this page](https://cgi.tilde.town/users/signup). we wou
 
 # current status
 
-we are currently accepting contributions for issue 2! everything very welcome.
+we are currently accepting contributions for issue 3! everything very welcome.
 
 # how do I get a copy?
 
