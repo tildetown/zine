@@ -31,7 +31,7 @@ echo 'echo $2 > ~/bin/$1 && chmod +rx ~/bin/$1' > ~/bin/defn && chmod +rx ~/bin/
 #  This places an executable script in your path that places executable scripts in your path.
 #  Now whenever you do something neat on the command line, you can save a new command for it:
 
-defn note 'echo &1 >> ~/notes.txt'
+defn note 'echo $1 >> ~/notes.txt'
 
 #  selfsame@tilde>note "remember to write something for the tilde town zine"
 
