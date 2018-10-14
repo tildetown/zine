@@ -2,7 +2,7 @@
 
 hello.
 
-this is the zine for tilde.town. we try (and fail miserably) to release regularly and accept contributions from absolutely everyone.
+this is the zine for tilde.town. we release irregularly and accept contributions from absolutely everyone.
 
 to sign up please visit [this page](https://cgi.tilde.town/users/signup). we would love it if you joined.
 
@@ -12,7 +12,9 @@ we are currently accepting contributions for issue 3! everything very welcome.
 
 # when is a new issue released?
 
-starting with issue 3, we have a release window every 3 months. if we think we need more for the issue, we leave it open until the next window. whenever an issue is finished, we immediately open the next issue and work on getting the copy out. (see [here](https://docs.google.com/spreadsheets/d/1XSuAi6pnDKEvrwXSdlYFa0cScEGYOnKW9ReNHDUjPqc/edit?usp=sharing) for the planned release schedule)
+a new issue is released whenever we feel we have enough content.
+
+(We're aiming for December 2018 for Issue 3, but we may not make it.)
 
 # how do I get a copy?
 
