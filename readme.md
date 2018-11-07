@@ -19,3 +19,8 @@ a new issue is released whenever we feel we have enough content.
 # how do I get a copy?
 
 every issue should have a `.pdf` in the folder which you can use to print out and make your own version! ~jumblesale, ~insom, and ~joe have also been sending out versions. if you'd like one, just put your address in a ~/.address file (if on tilde.town) or reach out to them on twitter/[mastodon](http://tiny.tilde.website) and they will do their best to send one out.
+
+# what issues have you released?
+
+ - [issue 1](https://github.com/tildetown/zine/tree/master/issue_1) ([pdf](https://github.com/tildetown/zine/raw/master/issue_1/zine.pdf))
+ - [issue 2](https://github.com/tildetown/zine/tree/master/issue_2/) ([pdf](https://github.com/tildetown/zine/raw/master/issue_2/zine.pdf))
