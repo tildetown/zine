@@ -1,0 +1,49 @@
+// Pretty sound generator. For fun and warmth, everything uses 16 bit math.
+// pipe to `aplay -c 2` or `pacat --raw --format u8 --rate 8000 --channels 2`
+
+#include <stdio.h>
+#include <stdint.h>
+
+uint16_t SAMPLE_RATE = 8000;
+// random constant makes everything fit into 16 bits
+uint16_t VOICE_COFF = 8;
+// maximum value of anything in "voices" -- having it be the same as
+// the sample rate makes things better, i think
+uint16_t VOICE_MAX = 8000;
+
+uint16_t voices[32] = {0};
+
+// increments a voice according to the frequency given and
+// returns a nice 8-bit wave from the output
+int8_t iter(uint16_t *voice, uint16_t freq) {
+    *voice += (VOICE_MAX * VOICE_COFF) / ((SAMPLE_RATE * VOICE_COFF) / freq);
+    *voice %= VOICE_MAX;
+    // sawtooth wave!
+    int8_t x = ((*voice % (VOICE_MAX / 4)) * (VOICE_MAX / 1000)) / 125;
+    x = ((*voice / (VOICE_MAX / 4)) % 2) ? 127 - x : x;
+    return (*voice > (VOICE_MAX / 2)) ? -x : x;
+
+    // replacing the sawtooth with this will make the voices into square waves:
+    // return (*voice > VOICE_MAX / 2) ? 127 : -127;
+}
+
+// approximate values for {1, 9/8, 21/16, 3/2, 7/4}
+int pentatonic[5] = {110, 124, 144, 165, 192};
+
+int main(int argc, char **argv) {
+    // j % 2 == 0 on left channel and 1 on right channel
+    for (uint64_t j = 0;; j++) {
+        int16_t x = 0;
+
+        for (int i = 0; i < 16; i++) {
+            uint16_t freq = pentatonic[i % 5] * 1 << (i / 5);
+            // get amplitude of wave. the higher the frequency or voice number,
+            // the less frequent the sound
+            int16_t y = 4 - (j + (i << 12) >> 13) % (i * 3 + 2 + (i + j) % 2);
+            x += iter(&voices[i * 2 + (j % 2)], freq) * (y > 0 ? y : 0);
+        }
+
+        // add 128 to balance the unsigned 8-bit output
+        putchar((x / 32) + 128);
+    }
+}
