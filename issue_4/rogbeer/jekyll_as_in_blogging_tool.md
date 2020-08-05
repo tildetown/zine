@@ -25,10 +25,11 @@ I hope this post saves someone else some time.
 
 Besides the above, I also made changes to my .bashrc , before Jekyll could work.
 
-If you find it helpful, you may add the following lines to your file located
+If you find it helpful, you may add the following two lines to your file located
 at ~/.bashrc :
 
 export GEM_HOME=/home/your_username/gems
+
 export PATH="/home/your_username/gems:$PATH"
 
 Replace your_username (in the above two lines) with your user-name, of course.
