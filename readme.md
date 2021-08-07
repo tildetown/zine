@@ -25,3 +25,4 @@ every issue should have a `.pdf` in the folder which you can use to print out an
  - [issue 1](https://github.com/tildetown/zine/tree/master/issue_1) ([pdf](https://github.com/tildetown/zine/raw/master/issue_1/zine.pdf))
  - [issue 2](https://github.com/tildetown/zine/tree/master/issue_2/) ([pdf](https://github.com/tildetown/zine/raw/master/issue_2/zine.pdf))
  - [issue 3](https://github.com/tildetown/zine/tree/master/issue_3) ([pdf](https://github.com/tildetown/zine/blob/master/issue_3/zine.pdf))
+ - issue 4 ([pdf](https://git.tilde.town/tildetown/zine/src/branch/trunk/issue_4/zine.pdf))
