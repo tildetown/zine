@@ -8,7 +8,11 @@ to sign up please visit [this page](https://cgi.tilde.town/users/signup). we wou
 
 # current status
 
-we are currently accepting contributions for issue 4! everything very welcome.
+~~we are currently accepting contributions for issue 4! everything very welcome.~~
+
+we are using the following website, instead of Github:
+
+[https://git.tilde.town/tildetown/zine/](https://git.tilde.town/tildetown/zine/)
 
 # when is a new issue released?
 
