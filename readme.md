@@ -12,7 +12,7 @@ to sign up please visit [this page](https://cgi.tilde.town/users/signup). we wou
 
 we are using the following website, instead of Github:
 
-[https://git.tilde.town/tildetown/zine/](https://git.tilde.town/tildetown/zine/)
+[http://tilde.town/~zine/](http://tilde.town/~zine/)
 
 # when is a new issue released?
 
@@ -29,4 +29,5 @@ every issue should have a `.pdf` in the folder which you can use to print out an
  - [issue 1](https://github.com/tildetown/zine/tree/master/issue_1) ([pdf](https://github.com/tildetown/zine/raw/master/issue_1/zine.pdf))
  - [issue 2](https://github.com/tildetown/zine/tree/master/issue_2/) ([pdf](https://github.com/tildetown/zine/raw/master/issue_2/zine.pdf))
  - [issue 3](https://github.com/tildetown/zine/tree/master/issue_3) ([pdf](https://github.com/tildetown/zine/blob/master/issue_3/zine.pdf))
- - issue 4 ([pdf](https://git.tilde.town/tildetown/zine/src/branch/trunk/issue_4/zine.pdf))
+ - issue 4
+ - issue 5
